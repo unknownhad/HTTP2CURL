@@ -62,4 +62,8 @@ curl -X POST -H 'Content-Type: application/json' -H 'User-Agent: curl/7.68.0' -H
         http_request = """\
 POST /api/users HTTP/1.1
 Content-Type: application/json
-User-Agent: curl/7.
+User-Agent: curl/7.68.0
+Accept: */*
+Content-Length: 26
+
+{"name": "Alice", "age": 30}"""
